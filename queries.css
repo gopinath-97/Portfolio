@@ -1,0 +1,46 @@
+@media all and (max-width:460px){
+ 
+ body{
+  padding: 0 1.5rem;
+  
+ }
+  .abt-me h1{
+    letter-spacing: .5rem;
+    line-height: 5.5rem;
+  }
+  .abt-me h5{
+    font-size: 2rem;
+  }
+  .hero-1{
+    margin-bottom: 2rem;
+  }
+  .hero-2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-2 .hero-content{ 
+    margin-top: -10rem;
+  }
+
+/* projects=================================== */
+  .project-cards{
+    padding-bottom: 3rem;
+  }
+  .intro{
+    margin-bottom: 0;
+  }
+ 
+
+/* ========Contact==================== */
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+.contact-img{
+  width: 100%;
+}
+.contact-content h4{
+  margin-bottom: 1rem;
+}
+}
